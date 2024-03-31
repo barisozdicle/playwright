@@ -1,0 +1,29 @@
+{
+  "name": "priamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e_tests": "npx playwright test",
+    "interactive_UI": "npx playwright test --ui",
+    "test_only_chrome": "npx playwright test --project=chromium",
+    "debug": "npx playwright test --debug",
+    "auto_generate_codegen": "npx playwright codegen",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barisozdicle/playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barisozdicle/playwright/issues"
+  },
+  "homepage": "https://github.com/barisozdicle/playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.12.2"
+  }
+}
